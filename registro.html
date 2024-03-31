@@ -32,32 +32,31 @@
 	<main class="container">
         <section class="col-6 mx-auto">
             <section class="row">
-                <form class="mt-5" id="form-registro">
-
+                <form class="mt-5 mb-5" id="form-registro">
                     <legend>Completar con sus datos</legend>
 
                     <section class="mb-3 text-violeta-oscuro">
                         <label class="form-label">Nombre: </label>
-                        <input type="text" id="nombre" class="form-control">
+                        <input type="text" name="nombre" class="form-control" required>
                     </section>
                     <section class="mb-3 text-violeta-oscuro">
                         <label class="form-label">Apellido: </label>
-                        <input type="text" id="apellido" class="form-control">
+                        <input type="text" name="apellido" class="form-control"  required>
                     </section>
                     <section class="mb-3 text-violeta-oscuro">
                         <label class="form-label">Documento: </label>
-                        <input type="text" id="documento" class="form-control">                        
+                        <input type="text" name="documento" class="form-control"  required>                        
                     </section>
                     <section class="mb-3 text-violeta-oscuro">
                         <label class="form-label">Email: </label>
-                        <input type="email" id="email" class="form-control">                        
+                        <input type="email" name="email" class="form-control"  required>                        
                     </section>
-                    <section class="mb-5 text-violeta-oscuro">
+                    <section class="mb-3 text-violeta-oscuro">
                         <label class="form-label">Teléfono: </label>
-                        <input type="text" id="telefono" class="form-control">
+                        <input type="text" name="telefono" class="form-control" required>
                     </section>
-                    <section class="mb-5">
-                        <input type="submit" class="btn-registro" value="Registrarse">
+                    <section class="mb-3">
+                        <button type="submit" class="btn-registro">Registrarse</button>
                     </section>
                 </form>
             </section>
@@ -78,7 +77,7 @@
 	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>	
 	<!-- JS Propio -->
-	<script type="text/javascript" src="js/main.js"></script>
+	<script type="module" src="js/registro.js"></script>
 
 </body>
 </html>

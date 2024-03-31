@@ -63,6 +63,10 @@ legend{
     font-weight: bold;
 }
 
+input{
+    color: var(--violeta-oscuro) !important;/*var(--violeta-oscuro);*/
+}
+
 /* Footer */
 footer{
     background-color: var(--violeta-oscuro);

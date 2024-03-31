@@ -29,8 +29,39 @@
 	</header>
 	
 
-	<main>
-		
+	<main class="container">
+        <section class="col-6 mx-auto">
+            <section class="row">
+                <form class="mt-5" id="form-registro">
+
+                    <legend>Completar con sus datos</legend>
+
+                    <section class="mb-3 text-violeta-oscuro">
+                        <label class="form-label">Nombre: </label>
+                        <input type="text" id="nombre" class="form-control">
+                    </section>
+                    <section class="mb-3 text-violeta-oscuro">
+                        <label class="form-label">Apellido: </label>
+                        <input type="text" id="apellido" class="form-control">
+                    </section>
+                    <section class="mb-3 text-violeta-oscuro">
+                        <label class="form-label">Documento: </label>
+                        <input type="text" id="documento" class="form-control">                        
+                    </section>
+                    <section class="mb-3 text-violeta-oscuro">
+                        <label class="form-label">Email: </label>
+                        <input type="email" id="email" class="form-control">                        
+                    </section>
+                    <section class="mb-5 text-violeta-oscuro">
+                        <label class="form-label">Teléfono: </label>
+                        <input type="text" id="telefono" class="form-control">
+                    </section>
+                    <section class="mb-5">
+                        <input type="submit" class="btn-registro" value="Registrarse">
+                    </section>
+                </form>
+            </section>
+        </section>		
 	</main>
 	
 	<!-- Pie de pagina del sitio -->
@@ -42,7 +73,6 @@
 			<li id="facebook"></li>
 		</ul>
 	</footer>
-
 	
 	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
 	<script type="text/javascript" src="js/popper.min.js"></script>

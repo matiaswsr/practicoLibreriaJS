@@ -56,10 +56,17 @@ ul li a:hover{
 }
 /* Fin menu de navegacion superior */
 
+legend{
+    color: var(--violeta-oscuro);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
 /* Footer */
 footer{
     background-color: var(--violeta-oscuro);
-    height: 9rem;
+    height: 11rem;
     padding: 3.125rem;    
 }
 
@@ -92,3 +99,37 @@ footer ul li{
 }
 /*  Fin del footer */
 
+
+.text-violeta-oscuro{
+    color: var(--violeta-oscuro);
+}
+
+.text-violeta-claro{
+    color: var(--violeta-claro);
+}
+
+.fondo-violeta-oscuro{
+    background-color: var(--violeta-oscuro);
+}
+
+.fondo-violeta-claro{
+    background-color: var(--violeta-claro);
+}
+
+.btn-registro{
+    background-color: var(--violeta-oscuro);
+    color: #FFF;
+    padding: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-registro:hover{
+    background-color: var(--violeta-medio);
+    color: #FFF;
+    padding: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

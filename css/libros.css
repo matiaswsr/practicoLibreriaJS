@@ -23,8 +23,8 @@ header{
     background-color: var(--violeta-oscuro);
 }
 
-h1{
-    letter-spacing: 3px;
+#titulo{
+    letter-spacing: 0.6rem;
 }
 
 #contenido{
@@ -38,7 +38,7 @@ ul{
     text-align: center;
 }
 ul li{
-    margin: 0.3rem;
+    margin: 0.7rem;
     width: 9rem;
     display: inline-block;
     text-align: center;

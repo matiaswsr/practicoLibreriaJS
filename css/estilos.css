@@ -227,9 +227,8 @@ ul li a:hover{
     color: #FFF;
 }
 #contacto button:hover{    
-    background-color: #FFF;
+    background-color: var(--violeta-medio);
     border: 1px solid var(--violeta-oscuro);
-    color: var(--violeta-oscuro);
     cursor: pointer;
 }
 /* Fin Formulario Contacto*/

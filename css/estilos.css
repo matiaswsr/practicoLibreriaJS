@@ -1,0 +1,298 @@
+/* Variables, colores a usar */
+:root{
+    --violeta-claro: #9333ea; 
+    --violeta-medio: #6b21a8;
+    --violeta-oscuro: #3b0764;
+}
+
+/* Reseteo CSS */
+*{ margin: 0; padding: 0; border: 0;}
+
+html{
+    scroll-behavior: smooth; /* suaviza el scroll */
+}
+
+body{
+    background-color: #FFF;    
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-size: 100% auto;
+    height: 15rem;
+    background-color: var(--violeta-oscuro);
+}
+
+h1{
+    letter-spacing: 3px;
+}
+
+#contenido{
+    color: var(--violeta-oscuro);
+}
+
+/* Menu de navegacion superior */
+ul{
+    margin-top: 2rem;
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    margin: 0.3rem;
+    width: 9rem;
+    display: inline-block;
+    text-align: center;
+}
+ul li a{
+    display: block;
+    background-color: var(--violeta-claro);
+    text-decoration: none;
+    padding: 0.8rem;
+    text-transform: uppercase;
+    color: #FFF;
+}
+ul li a:hover{
+    background-color: var(--violeta-medio);
+}
+/* Fin menu de navegacion superior */
+
+/* Libros de muestra */
+#ejemplo_libros{
+    margin: auto;
+    width: 75rem;  
+    overflow: auto;
+    margin-bottom: 5rem !important;
+}
+
+#ejemplo_libros h2{
+    margin-top: 3.125rem;
+    border-left: 5px solid var(--violeta-oscuro);
+    color: var(--violeta-oscuro);
+    padding-left: 0.625rem;
+    padding-bottom: 0.625rem;
+    letter-spacing: 3px;   
+}
+#ejemplo_libros h2 span{
+    font-weight: bold;
+    letter-spacing: 3px;   
+}
+#ejemplo_libros article{
+    float: left;
+    width: 23.75rem;
+    padding: 0.625rem;
+    margin: 0 auto;
+}
+#ejemplo_libros article p{
+    text-align: justify;
+    letter-spacing: 1px;
+    color: var(--violeta-oscuro);
+}
+#ejemplo_libros article figure img{
+    width: 100%;
+    margin-top: 1.25rem;
+    height: 20rem;
+}
+#ejemplo_libros h3{
+    background-color: var(--violeta-claro);
+    color: #FFF;
+    padding: 3px;
+    width: 60%;
+    font-family: serif;
+    letter-spacing: 2px;
+    position: relative;
+    top: -50px;
+}
+/* Fin libros de muestra*/
+
+/* Formulario de registro de novedades de libros */
+#registro{
+    background-color: var(--violeta-oscuro);
+    padding: 1.9rem;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#registro h3{   
+    color: #FFF;
+    letter-spacing: 2px;
+}
+
+#registro form{
+    margin-left: 2.5rem;
+    position: relative;
+    top: -3px;
+}
+
+#registro form input{    
+    background-color: transparent;
+    border: 1px solid #FFF;
+    color: #FFF;
+    padding: 0.625rem;
+    width: 18.75rem;
+    letter-spacing: 2px;
+}
+#registro form input:focus{    
+    background-color: transparent;
+    border: 1px solid #FFF;
+    color: #FFF;
+    outline: none;
+    padding: 0.625rem;
+}
+#registro form button{    
+    background-color: var(--violeta-claro);
+    border: 1px solid #FFF;
+    color: #FFF;
+    padding: 0.625rem;
+    width: 9.375rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#registro form button:hover{
+    background-color: #FFF;
+    color: var(--violeta-oscuro);
+    cursor: pointer;
+}
+#registro form ::placeholder{
+    color: #F6F6F6;
+}
+/* Fin de formulario de registro */
+
+
+/* Formulario Contacto */
+#contacto{
+    background-color: var(--violeta-claro);
+    height: 37.5rem;
+}
+#contacto h2{
+    color: #FFF;
+    text-align: center;
+    padding: 2rem;
+    letter-spacing: 0.15rem;
+}
+
+#contacto form{
+    color: #FFF;
+    width: 19rem;
+    margin: 0 auto;
+}
+#contacto input, textarea{
+    padding-left: 0.4rem;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    width: 100%;
+}
+#contacto input{
+    height: 1.875rem;
+    background-color: transparent;
+    border: 1px solid var(--violeta-oscuro);
+    margin-bottom: 1rem;
+}
+#contacto form label{
+    display: block;
+    margin-left: 0.625rem;
+    margin-bottom: 0.313rem;
+}
+#contacto textarea{
+    resize: none;
+    width: 100%;
+    height: 9.375rem;
+    border: 1px solid var(--violeta-oscuro);
+    background-color: transparent;
+    margin-bottom: 1.25rem;
+}
+#contacto label:nth-child(8){
+    /* label: acepto las condiciones */
+    width: 50%;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+#condiciones{
+    /* checkbox */
+    width: 5% !important;
+    border: 1px solid var(--violeta-oscuro);
+}
+
+#contacto form input:focus{
+    outline: none;
+}
+#contacto form textarea:focus{
+    outline: none;
+}
+#contacto button{
+    width: 6.25rem;
+    height: 3.125rem;
+    float: right;
+    background-color: var(--violeta-oscuro);
+    color: #FFF;
+}
+#contacto button:hover{    
+    background-color: #FFF;
+    border: 1px solid var(--violeta-oscuro);
+    color: var(--violeta-oscuro);
+    cursor: pointer;
+}
+/* Fin Formulario Contacto*/
+
+
+/* Footer */
+footer{
+    background-color: var(--violeta-oscuro);
+    height: 9rem;
+    padding: 3.125rem;    
+}
+
+footer ul li{
+    width: 2rem;
+    height: 2rem;    
+    background-image: url("../img/redes_sociales.png");
+}
+
+#twitter{
+    background-position: 0 0;
+}
+#instagram{
+    background-position: -32px 0;
+}
+#facebook{
+    background-position: -64px 0;
+}
+#twitter:hover{
+    background-position: 0 -32px;
+    cursor: pointer;
+}
+#instagram:hover{
+    background-position: -32px -32px;
+    cursor: pointer;
+}
+#facebook:hover{
+    background-position: -64px -32px;
+    cursor: pointer;
+}
+/*  Fin del footer */
+
+/* Boton volver */
+#volver{
+    /*overflow: auto;*/    
+    display: flex;
+    flex-direction: row-reverse;    
+}
+#volver a{
+    /*float: right;*/
+    text-decoration: none;
+    width: 1rem;
+    height: 1rem;
+
+    background-image: url("../img/up.png");
+    background-position: 0 0;
+
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+}
+#volver a:hover{   
+    background-position: -1rem 0;
+    cursor: pointer;
+}
+
+/* Fin boton volver */

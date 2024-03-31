@@ -1,0 +1,94 @@
+/* Variables, colores a usar */
+:root{
+    --violeta-claro: #9333ea; 
+    --violeta-medio: #6b21a8;
+    --violeta-oscuro: #3b0764;
+}
+
+/* Reseteo CSS */
+*{ margin: 0; padding: 0; border: 0;}
+
+html{
+    scroll-behavior: smooth; /* suaviza el scroll */
+}
+
+body{
+    background-color: #FFF;    
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-size: 100% auto;
+    height: 15rem;
+    background-color: var(--violeta-oscuro);
+}
+
+h1{
+    letter-spacing: 3px;
+}
+
+#contenido{
+    color: var(--violeta-oscuro);
+}
+
+/* Menu de navegacion superior */
+ul{
+    margin-top: 2rem;
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    margin: 0.3rem;
+    width: 9rem;
+    display: inline-block;
+    text-align: center;
+}
+ul li a{
+    display: block;
+    background-color: var(--violeta-claro);
+    text-decoration: none;
+    padding: 0.8rem;
+    text-transform: uppercase;
+    color: #FFF;
+}
+ul li a:hover{
+    background-color: var(--violeta-medio);
+}
+/* Fin menu de navegacion superior */
+
+/* Footer */
+footer{
+    background-color: var(--violeta-oscuro);
+    height: 9rem;
+    padding: 3.125rem;    
+}
+
+footer ul li{
+    width: 2rem;
+    height: 2rem;    
+    background-image: url("../img/redes_sociales.png");
+}
+
+#twitter{
+    background-position: 0 0;
+}
+#instagram{
+    background-position: -32px 0;
+}
+#facebook{
+    background-position: -64px 0;
+}
+#twitter:hover{
+    background-position: 0 -32px;
+    cursor: pointer;
+}
+#instagram:hover{
+    background-position: -32px -32px;
+    cursor: pointer;
+}
+#facebook:hover{
+    background-position: -64px -32px;
+    cursor: pointer;
+}
+/*  Fin del footer */
+

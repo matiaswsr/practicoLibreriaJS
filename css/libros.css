@@ -59,7 +59,7 @@ ul li a:hover{
 /* Footer */
 footer{
     background-color: var(--violeta-oscuro);
-    height: 11rem;
+    height: 12rem;
     padding: 3.125rem;    
 }
 
@@ -67,6 +67,10 @@ footer ul li{
     width: 2rem;
     height: 2rem;    
     background-image: url("../img/redes_sociales.png");
+}
+
+img{
+    max-width: 50% !important;
 }
 
 #twitter{

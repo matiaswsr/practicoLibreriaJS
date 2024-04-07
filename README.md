@@ -1,5 +1,5 @@
 
-Ejemplo practico de una simple librería.
+Ejemplo practico de una simple librería, practicando GIT.
 
 Con persistencia de los datos en localStorage.
 

@@ -29,8 +29,16 @@
 	</header>
 	
 
-	<main>
-		
+	<main class="container-fluid">
+		<form class="col-3 mt-3" id="form-compras">	
+			<section class="mb-3 text-violeta-oscuro">
+				<input type="text" id="cedula" class="form-control" placeholder="Ingrese su cédula" required>
+			</section>
+			<section class="mb-3">
+				<button type="submit" class="btn btn-success">Buscar</button>
+			</section>
+		</form>
+		<section id="seccion" class="mb-5"></section>
 	</main>
 	
 	<!-- Pie de pagina del sitio -->
@@ -48,7 +56,7 @@
 	<script type="text/javascript" src="js/popper.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>	
 	<!-- JS Propio -->
-	<script type="module" src="js/main.js"></script>
+	<script type="module" src="js/mis_compras.js"></script>
 
 </body>
 </html>
